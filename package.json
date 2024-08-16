@@ -1,0 +1,25 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "This is a simple URL shortener service built using Node.js. It allows you to shorten a valid URL and tracks the number of visits/clicks on the shortened URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitMahara/URL-Shortener.git"
+  },
+  "author": "Harshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshitMahara/URL-Shortener/issues"
+  },
+  "homepage": "https://github.com/HarshitMahara/URL-Shortener#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4",
+    "shortid": "^2.2.16"
+  }
+}
