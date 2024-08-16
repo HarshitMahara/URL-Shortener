@@ -25,9 +25,4 @@ This is a simple URL shortener service built using Node.js. It allows you to sho
   - **Params:** `id` - The unique identifier for the short URL.
   - **Response:** `{ "clicks": <number_of_clicks> }`
 
-## Installation and Setup
 
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   cd url-shortener
